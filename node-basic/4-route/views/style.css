@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:aqua ;
+}
+.container{
+    margin: 0 auto;
+    width: 80vw;
+    height: 100vh;
+    background-color:cadetblue ;
+}
+.navbar{
+    background-color: coral;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 20px 0;
+}
+.navbar ul li a{
+    align-items: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar ul li a:hover{
+    background-color: wheat;
+}
+.container h1{
+    padding-top: 100px;
+    text-align: center;
+}
+.container p{
+    padding: 50px;
+}
