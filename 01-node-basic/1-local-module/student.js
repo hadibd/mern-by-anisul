@@ -8,11 +8,11 @@ const getAge = () => {
 
 const gpa = 4.5;
 
-// indivisula esport
+// * indivisula esport
 // exports.name = getName;
 // exports.age = getAge;
 
-// Batch export
+// * Batch export
 module.exports = {
     getName,
     getAge,
